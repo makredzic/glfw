@@ -12,4 +12,4 @@ url = git@github.com:makredzic/glfw.git
 revision = HEAD
 ```
 
-In the **project root** meson build file, you can now simply use `dependency('glfw')` to fetch the `glfw` dependency.
+In the **project root** meson build file, you can now simply use `dependency('glfw3')` to fetch the `glfw` dependency.

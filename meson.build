@@ -1,5 +1,5 @@
 project(
-  'glfw',
+  'glfw3',
   'cpp',
   version: '3.3.6-1'
 )
@@ -14,6 +14,6 @@ glfw_dep = declare_dependency(
   include_directories: glfw_hdr,
 )
 
-meson.override_dependency('glfw', glfw_dep)
+meson.override_dependency('glfw3', glfw_dep)
 
 
