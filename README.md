@@ -7,5 +7,9 @@ This project holds the precompiled GLFW3 library along with the include director
 ### Meson
 Add the following wrap file in your `subprojects` directory:
 ```
-todo
+[wrap-git]
+url = git@github.com:makredzic/glfw.git
+revision = HEAD
 ```
+
+In the **project root** meson build file, you can now simply use `dependency('glfw')` to fetch the `glfw` dependency.
