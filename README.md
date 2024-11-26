@@ -5,7 +5,7 @@ This project holds the precompiled GLFW3 library along with the include director
 ## Build
 
 ### Meson
-Add the following wrap file in your `subprojects` directory:
+Add the following `glfw3.wrap` file to your `subprojects` directory:
 ```
 [wrap-git]
 url = git@github.com:makredzic/glfw.git
